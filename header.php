@@ -8,23 +8,22 @@
 </head>
 <body>
     <header>
-    <!-- Ovde ovo ili logo. Vrv logo + eventualno description -->
-        <!-- <h1><?php bloginfo('name'); ?></h1> -->
-        <!-- <span><?php bloginfo('description'); ?></span> -->
-    <!-- -->
+        <a href="<?php echo site_url(); ?>" class="logo">
+            <img src="<?php echo get_theme_file_uri('/images/logo-lilo-mali.png') ?>" alt="Ordinacija Lolo logo" class="logo-lilo">
+        </a>
+
+        <div class="hamburger-box">
+            <div class="hamburger not-active">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    
+        <?php
+            $args = array(
+                'theme_location' => 'primary'
+            );
+        ?>
+        <?php wp_nav_menu($args); ?>
     </header>
-    <nav class="main-nav">
-        <div class="nav-links-container">
-            <?php
-                $args = array(
-                    'theme_location' => 'primary'
-                );
-            ?>
-            <?php wp_nav_menu($args); ?>
-        </div>
-        <div class="search-container">
-            <form action="">
-                <input type="text" placeholder="Pretraga...">
-            </form>
-        </div>
-    </nav>

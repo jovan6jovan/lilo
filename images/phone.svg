@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="30" height="30">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #aa1d35 } 
+	</style>
+	<g id="Layer">
+		<path id="Layer" fill-rule="evenodd" class="shp0" d="M18.98 10.79C32.71 1.17 35.55 3.59 39.96 17.64C43.31 28.32 41.4 29.66 33.17 35.42C35.92 49.06 46.31 63.9 58.19 71.14C66.41 65.39 68.33 64.05 77.22 70.85C88.91 79.8 90.22 83.29 76.48 92.91C53.39 109.08 -4.11 26.96 18.98 10.79L18.98 10.79Z" />
+	</g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="30" height="30">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #aa1d35 } 
+	</style>
+	<g id="Layer">
+		<g id="Layer">
+			<g id="Layer">
+				<path id="Layer" class="shp0" d="M45 12L55 12L55 95L45 95L45 12Z" />
+			</g>
+		</g>
+		<g id="Layer">
+			<g id="Layer">
+				<path id="Layer" class="shp0" d="M50 5L45 12L55 12L50 5Z" />
+			</g>
+		</g>
+		<g id="Layer">
+			<g id="Layer">
+				<path id="Layer" class="shp0" d="M56 18L86 18L86 32L56 32L56 18Z" />
+			</g>
+		</g>
+		<g id="Layer">
+			<g id="Layer">
+				<path id="Layer" class="shp0" d="M86 18L86 32L95 25L86 18Z" />
+			</g>
+		</g>
+		<g id="Layer">
+			<g id="Layer">
+				<path id="Layer" class="shp0" d="M14 18L44 18L44 32L14 32L14 18Z" />
+			</g>
+		</g>
+		<g id="Layer">
+			<g id="Layer">
+				<path id="Layer" class="shp0" d="M5 25L14 32L14 18L5 25Z" />
+			</g>
+		</g>
+		<g id="Layer">
+			<g id="Layer">
+				<path id="Layer" class="shp0" d="M56 35L86 35L86 49L56 49L56 35Z" />
+			</g>
+		</g>
+		<g id="Layer">
+			<g id="Layer">
+				<path id="Layer" class="shp0" d="M86 35L86 49L95 42L86 35Z" />
+			</g>
+		</g>
+		<g id="Layer">
+			<g id="Layer">
+				<path id="Layer" class="shp0" d="M34 93L66 93L66 95L34 95L34 93Z" />
+			</g>
+		</g>
+	</g>
+</svg>
