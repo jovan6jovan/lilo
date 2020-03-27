@@ -10,9 +10,9 @@
                     </div>
                 <?php endif; ?>
                 <div class="single-post-content">
-                    <h3 class="post-title">
+                    <h1 class="single-post-title">
                         <?php the_title(); ?>
-                    </h3>
+                    </h1>
                     <div class="meta single-post-meta">
                         <span>Postavio/la</span>
                         <span class="author-name"><?php the_author_posts_link(); ?></span>

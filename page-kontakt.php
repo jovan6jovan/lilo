@@ -1,5 +1,10 @@
 <?php get_header(); ?>
 
+<div class="page-header">
+    <h1 class="page-title"><?php the_title(); ?></h1>
+    <img src="<?php echo get_theme_file_uri('/images/kontakt.svg') ?>" alt="">
+</div>
+
 <section class="contact-section">
     <div class="contact-card-holder">
         <div class="contact-card contact-address-card">
@@ -20,7 +25,7 @@
     </div>
     
     <div id="contact-form-container">
-        <h1 class="contact-form-heading">Kontaktirajte nas</h1>
+        <h2 class="contact-form-heading">Kontaktirajte nas</h2>
         <form class="contact-form" action="" method="POST">
             <p>
                 <label for="name">Vaše ime <span class="star">*</span></label>

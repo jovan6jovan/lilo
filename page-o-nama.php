@@ -1,5 +1,10 @@
 <?php get_header(); ?>
 
+<div class="page-header">
+    <h1 class="page-title"><?php the_title(); ?></h1>
+    <img src="<?php echo get_theme_file_uri('/images/doktori.svg') ?>" alt="">
+</div>
+
 <div class="about-container">
     <section class="team">
         <section class="person">

@@ -20,7 +20,7 @@ function lilo_features() {
 add_action("after_setup_theme", "lilo_features");
 
 function custom_excerpt_length() {
-	return 30;
+	return 25;
 }
 
 add_filter("excerpt_length", "custom_excerpt_length");

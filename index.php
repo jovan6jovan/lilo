@@ -1,7 +1,11 @@
 <?php get_header(); ?>
 
+<div class="page-header">
+    <h1 class="page-title">Blog</h1>
+    <img src="<?php echo get_theme_file_uri('/images/blog.svg') ?>" alt="">
+</div>
+
 <div class="blog-container">
-    <h1>Dobrodošli na naš blog</h1>
     <div class="posts-container">
         <?php if(have_posts()) : ?>
             <?php while(have_posts()) : the_post(); ?>
@@ -13,7 +17,7 @@
                     <?php endif; ?>
                     <div class="card-body">
                         <div class="meta">
-                            <span>Postavio/la</span>
+                            <span class="posted-by">Postavio/la</span>
                             <span class="author-name"><?php the_author_posts_link(); ?></span>
                             <span class="post-date"><?php the_time('d.m.Y'); ?></span>
                         </div>

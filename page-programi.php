@@ -1,5 +1,10 @@
 <?php get_header(); ?>
 
+<div class="page-header">
+    <h1 class="page-title"><?php the_title(); ?></h1>
+    <img src="<?php echo get_theme_file_uri('/images/usluge.svg') ?>" alt="">
+</div>
+
 <?php
     $programs = new WP_Query(array(
         "posts_per_page" => 4,
@@ -8,7 +13,6 @@
 ?>
 
 <div class="blog-container">
-    <h1><?php the_title(); ?></h1>
     <div class="posts-container">
         <?php if($programs->have_posts()) : ?>
             <?php while($programs->have_posts()) : $programs->the_post(); ?>
