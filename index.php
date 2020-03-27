@@ -40,6 +40,9 @@
             <?php echo wpautop('Nijedan članak nije pronađen'); ?>
         <?php endif; ?>
     </div>
+    <div class="pagination">
+        <?php echo paginate_links(); ?>
+    </div>
 </div>
 
 <?php get_footer(); ?>

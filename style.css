@@ -503,9 +503,6 @@ footer {
   width: 100%;
 }
 
-.post-featured-image img {
-}
-
 .card-body {
   text-align: center;
 }
@@ -515,39 +512,30 @@ footer {
 }
 
 .meta {
-  margin-top: 16px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  line-height: 1.8;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  color: var(--white-color);
+  display: none;
 }
 
 .posted-by {
   background-color: var(--primary-color);
   color: var(--white-color);
-  padding: 4px;
+  padding: 2px 4px;
 }
 
 .author-name a {
   background-color: var(--white-color);
   color: var(--primary-color);
-  padding: 4px;
+  padding: 2px 4px;
 }
 
 .post-date {
   background-color: var(--secondary-color);
   color: var(--white-color);
-  padding: 4px;
+  padding: 2px 4px;
 }
 
 .post-title {
   font-size: 24px;
-  padding: 16px 4px 0 4px;
+  padding: 16px 8px 0 8px;
 }
 
 .post-title-link {
@@ -582,6 +570,25 @@ footer {
   margin-top: 8px;
 }
 
+.pagination {
+  width: 50%;
+  margin: auto;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.pagination .page-numbers {
+  color: var(--dark-color);
+  margin-right: 4px;
+}
+
+.pagination .page-numbers.current {
+  background: var(--secondary-color);
+  color: var(--white-color);
+  padding: 2px 4px;
+}
+
 @media screen and (min-width: 1025px) {
   .posts-container {
     display: grid;
@@ -601,11 +608,29 @@ footer {
     max-width: 768px;
   }
 
+  .meta {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 1.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: var(--white-color);
+  }
+
   .post-btn {
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  .pagination {
+    font-size: 22px;
+    margin-bottom: 32px;
   }
 
   /* .post-title {
@@ -638,11 +663,34 @@ footer {
   margin-top: 32px;
   margin-bottom: 16px;
   line-height: 1.8;
+  position: static;
+  text-align: center;
+  line-height: 1.5;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.single-post-meta ~ * {
+  margin-bottom: 16px;
 }
 
 @media screen and (min-width: 1025px) {
   .single-post-title {
     font-size: 40px;
+  }
+
+  .single-post-meta {
+    justify-content: flex-start;
+    margin: 16px 0 22px 0;
+  }
+
+  .single-post-meta ~ * {
+    margin-bottom: 24px;
+  }
+
+  .author-name {
+    margin: 0 8px;
   }
 }
 /* END OF SINGLE.PHP */
@@ -790,7 +838,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #bebbbb;
+  background-color: var(--secondary-color);
   align-items: center;
 }
 

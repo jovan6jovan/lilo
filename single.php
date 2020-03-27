@@ -14,7 +14,7 @@
                         <?php the_title(); ?>
                     </h1>
                     <div class="meta single-post-meta">
-                        <span>Postavio/la</span>
+                        <span class="posted-by">Postavio/la</span>
                         <span class="author-name"><?php the_author_posts_link(); ?></span>
                         <span class="post-date"><?php the_time('d.m.Y'); ?></span>
                     </div>
@@ -27,6 +27,6 @@
     <?php endif; ?>
 </div>
 
-<a href="<?php echo site_url() ?>" class="back-to-blog-link">&#171; Nazad na blog</a>
+<a href="<?php echo site_url("/blog") ?>" class="back-to-blog-link">&#171; Nazad na blog</a>
 
 <?php get_footer(); ?>

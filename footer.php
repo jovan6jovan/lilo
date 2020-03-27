@@ -29,7 +29,7 @@
         </section>
     </div>
     <p class="copyright-p">
-        &copy; <?php the_date('Y'); ?> - <?php bloginfo('name'); ?>
+        &copy; 2020 - <?php bloginfo('name'); ?>
         <span>. Sva prava zadržana.</span>
     </p>
 </footer>
