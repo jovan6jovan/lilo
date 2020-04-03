@@ -19,7 +19,7 @@
                         <div class="meta">
                             <span class="posted-by">Postavio/la</span>
                             <span class="author-name"><?php the_author_posts_link(); ?></span>
-                            <span class="post-date"><?php the_time('d.m.Y'); ?></span>
+                            <!-- <span class="post-date"><?php the_time('d.m.Y'); ?></span> -->
                         </div>
                         <h3 class="post-title">
                             <a href="<?php the_permalink(); ?>" class="post-title-link">

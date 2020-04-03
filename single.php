@@ -16,7 +16,7 @@
                     <div class="meta single-post-meta">
                         <span class="posted-by">Postavio/la</span>
                         <span class="author-name"><?php the_author_posts_link(); ?></span>
-                        <span class="post-date"><?php the_time('d.m.Y'); ?></span>
+                        <!-- <span class="post-date"><?php the_time('d.m.Y'); ?></span> -->
                     </div>
                     <?php the_content(); ?>
                 </div>
